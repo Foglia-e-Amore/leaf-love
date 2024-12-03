@@ -1,0 +1,56 @@
+.Menu {
+    position: relative;
+    background-color: #FAF9F6;
+    min-height: 90vh;
+}
+
+.Menu-items {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    position: relative;
+}
+
+#menu-dialog {
+    display: flex;
+    min-width: 80vw;
+    min-height: 50vh;
+    border: none;
+    border-radius: 8px;
+}
+
+#menu-dialog::backdrop {
+    background-color: black;
+    opacity: 0.75;
+}
+
+#dialog-close-button {
+    float: right;
+}
+
+#dialog-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100%;
+}
+
+#dialog-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dialog-content-column-2 {
+    text-align: left;
+}
+
+.transformX-18vw{
+    min-height: 100%;
+    transform: translateX(25vw);
+}
+
+
