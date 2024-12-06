@@ -51,4 +51,10 @@ function Menu () {
     )
 }
 
+
+    const menuLink = document.createElement("Menu")
+    menuLink.href = 'menu';
+    menuLink.style.color = 'blue';
+
+
 export default Menu;
