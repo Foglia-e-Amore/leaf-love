@@ -11,6 +11,7 @@ function App() {
         <Routes basename='/leaf-love'>
           <Route path="/" element={ <Homepage /> } />
           <Route path="/menu" element={ <Menu /> } />
+          <Route path="/aboutUs" element={ <aboutUs /> } />
         </Routes>
       </div>
   );
