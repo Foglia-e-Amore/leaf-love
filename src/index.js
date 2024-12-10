@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Aboutus from './components/AboutUs/Aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

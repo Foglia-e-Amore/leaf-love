@@ -5,7 +5,7 @@ function Aboutus({id, name, onClick}) {
     return(
         <div 
             className="Aboutus"
-            onClick={() => onClick(id)}
+            
         >
         </div>
     )
