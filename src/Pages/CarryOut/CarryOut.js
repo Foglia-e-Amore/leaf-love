@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import './CarryOut.css';
 import ReviewRow2 from "../../components/Carryout/Review/Review-Row2";
 
@@ -16,7 +16,7 @@ function CarryOut() {
                     <h2 className="carryout-heading2">Your Order</h2>
                     <ReviewRow2 />
                 </div>
-                <button id="toPayment-btn" onClick={console.log("checkoutClicked")}>Checkout</button>
+                <button id="toPayment-btn" onClick={() => {console.log("checkoutClicked")}}>Checkout</button>
             </div>
         </div>
     )
