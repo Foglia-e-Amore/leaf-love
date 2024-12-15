@@ -5,7 +5,7 @@ import TimeAndLocationRow2 from "../../components/Carryout/TimeAndLocation/TimeA
 
 function CarryOut() {
     const [progress, setProgress] = useState(33);
-    const [carryoutStage, setCarryoutStage] = useState("Detail");
+    const [carryoutStage, setCarryoutStage] = useState("Review");
     const [cartItems, setCartItems] = useState([]);
 
     // Load cart items from local storage on component mount

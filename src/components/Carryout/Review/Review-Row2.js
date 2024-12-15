@@ -3,7 +3,7 @@ import './Review-Row2.css';
 import menuItems from "../../../Pages/Menu/menuItems";
 import BigChickenMac from "../../../images/BigChickenMac.jpg";
 
-function ReviewRow2({ cartItems, onNextClick }) {
+function ReviewRow2({ cartItems, onNextClick, totalPrice=0.00 }) {
     const [orderItems, setOrderItems] = useState([]);
 
     return (
@@ -18,7 +18,13 @@ function ReviewRow2({ cartItems, onNextClick }) {
                     />
                 ))}
             </div>
-            <button id="toPayment-btn" onClick={onNextClick}>Checkout</button>
+            <div id="ReviewRow2-bottom">
+                <div id="ReviewRow2-total-container">
+                <p className="review-row2-heading2">Total</p>
+                <p className="reviewRow2-Bold">${totalPrice}</p>
+                </div>
+                <button id="toNext-btn" onClick={onNextClick}>Checkout</button>
+            </div>
         </div>
     );
 }
