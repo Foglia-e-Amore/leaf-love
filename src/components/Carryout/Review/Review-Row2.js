@@ -23,7 +23,7 @@ function ReviewRow2({ cartItems, onNextClick, totalPrice=0.00 }) {
                 <p className="review-row2-heading2">Total</p>
                 <p className="reviewRow2-Bold">${totalPrice}</p>
                 </div>
-                <button id="toNext-btn" onClick={onNextClick}>Checkout</button>
+                <button className="toNext-btn" onClick={onNextClick}>Checkout</button>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import TimeAndLocationRow2 from "../../components/Carryout/TimeAndLocation/TimeA
 
 function CarryOut() {
     const [progress, setProgress] = useState(33);
-    const [carryoutStage, setCarryoutStage] = useState("Review");
+    const [carryoutStage, setCarryoutStage] = useState("Detail");
     const [cartItems, setCartItems] = useState([]);
 
     // Load cart items from local storage on component mount
@@ -39,11 +39,13 @@ function CarryOut() {
         <div id="CarryOut">
             <div id="CarryOut-row1">
                 <h1 className="carryout-heading">{carryoutStage}</h1>
-                <progress id="checkout-progress" value={progress} max={100}>32%</progress>
+                <progress id="checkout-progress" value={progress} max={100} />
             </div>
             <div id="CarryOut-row2">
                 {carryoutStage === "Detail" ? (
-                    <TimeAndLocationRow2 />
+                    <TimeAndLocationRow2
+                        onNextClicked={() => setCarryoutStage("Review")}
+                    />
                 ) : carryoutStage === "Review" ? (
                     <ReviewRow2
                     cartItems={cartItems}
