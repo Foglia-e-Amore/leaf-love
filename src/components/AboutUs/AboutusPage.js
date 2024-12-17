@@ -4,26 +4,15 @@ import Aboutus from "./Aboutus";
 
 function AboutUsPage() {
     return (
-        <div className="about-us">
-            <header className="about-header">
-                <h1>About Us</h1>
-            </header>
-            <main className="main">
-                <section className="intro">
-                    <h2>Who We Are</h2>
-                    <p>
-                        Welcome to our website! We are dedicated to providing exceptional service and
-                        ensuring our customers have the best experience possible. We are celebrating the Leaf,
-                        the land, and the Love!
-                    </p>
-                </section>
-            </main>
+        <div className="About Us">
+        <h1>Celebrating the land, the leaf, and the love since 2009!</h1>
         </div>
     );
 }
 
 export default AboutUsPage;
 
-const aboutLink = document.createElement("About Us")
-menuLink.href = 'About Us';
+    const AboutLink = document.createElement("AboutUsPage")
+    AboutLink.href = 'About Us';
+    AboutLink.style.color = 'blue';
 
