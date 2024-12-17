@@ -4,11 +4,11 @@ import './Header.css'
 function Header() {
     return(
         <div className="Header">
-            <h1 className="title">Header Header</h1>
+            <h1 className="title">Foglia e Amore</h1>
             <div className="items">
-                <a href="#">paragraph</a>
-                <a href="#">2Paragraph</a>
-                <a href="#">3 paragraph</a>
+                <a href="#/About Us">About Us</a>
+                <a href="#/menu">Menu</a>
+                <a href="#">Reservations</a>
             </div>
 
         </div>
