@@ -1,6 +1,5 @@
 import React from "react";
-import "./AboutUs.css";
-import Aboutus from "./Aboutus";
+import "./Aboutus.css";
 
 function AboutUsPage() {
     return (
@@ -11,8 +10,3 @@ function AboutUsPage() {
 }
 
 export default AboutUsPage;
-
-    const AboutLink = document.createElement("AboutUsPage")
-    AboutLink.href = 'About Us';
-    AboutLink.style.color = 'blue';
-
