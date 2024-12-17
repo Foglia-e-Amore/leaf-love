@@ -23,3 +23,7 @@ function AboutUsPage() {
 }
 
 export default AboutUsPage;
+
+const aboutLink = document.createElement("About Us")
+menuLink.href = 'About Us';
+
