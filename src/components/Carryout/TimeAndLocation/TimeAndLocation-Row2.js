@@ -18,7 +18,9 @@ function TimeAndLocationRow2({ onNextClicked, onDateChange }) {
                 <DatePicker 
                     id="TimeAndLocationRow2-TimePick"
                     selected={pickUpDate} 
-                    onChange={(date) => { handleDateChange(date) }} 
+                    onChange={(date) => { handleDateChange(date) }}
+                    minTime={setHours(setMinutes(new Date(), 59), 7)}
+                    maxTime={ssetHours(setMinutes(new Date(), 0), 22)}
                     showIcon
                     showTimeSelect
                     timeIntervals={15}
