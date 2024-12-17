@@ -45,6 +45,7 @@ function CarryOut() {
                 {carryoutStage === "Detail" ? (
                     <TimeAndLocationRow2
                         onNextClicked={() => setCarryoutStage("Review")}
+                        onDateChange={(date) => {console.log(date)}}
                     />
                 ) : carryoutStage === "Review" ? (
                     <ReviewRow2

@@ -9,6 +9,7 @@
 
 #TimeAndLocationRow2-top-container {
     display: flex;
+    flex-direction: column;
 }
 
 #TimeAndLocationRow2-bottom-container {
@@ -17,3 +18,23 @@
     justify-content: flex-end;
 }
 
+#TimeAndLocationRow2-TimePick {
+    width: 400px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.categoryDivider {
+    width: 100%;
+}
+.categoryDivider h1 {
+    font-size: 2.75rem;
+    margin: 30px 0 12px 0;
+    color: green;
+}
+.warning-label {
+    color: red;
+}
