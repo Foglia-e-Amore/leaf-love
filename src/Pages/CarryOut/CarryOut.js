@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import './CarryOut.css';
 import ReviewRow2 from "../../components/Carryout/Review/Review-Row2";
 import TimeAndLocationRow2 from "../../components/Carryout/TimeAndLocation/TimeAndLocation-Row2";
+import PaymentRow2 from "../../components/Carryout/Payment/Payment-Row2";
 
 function CarryOut() {
     const [progress, setProgress] = useState(33);
@@ -50,9 +51,11 @@ function CarryOut() {
                 ) : carryoutStage === "Review" ? (
                     <ReviewRow2
                     cartItems={cartItems}
-                    onNextClick={() => addItem({name: "Burger"})}
+                    onNextClick={() => setCarryoutStage("Payment")}
                     />
-                ): null}
+                ) : carryoutStage === "Payment" ? (
+                    <PaymentRow2 />
+                ) : null}
 
             </div>
         </div>
