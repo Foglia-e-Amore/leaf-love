@@ -12,7 +12,7 @@ function App() {
         <Routes basename='/leaf-love'>
           <Route path="/" element={ <Homepage /> } />
           <Route path="/menu" element={ <Menu /> } />
-          <Route path="/Aboutus" element={ <Aboutus /> } />
+          <Route path="/About Us" element={ <AboutUsPage /> } />
           <Route path="/carryout" element={ <CarryOut /> } />
           <Route path='/playground' element={ <Play /> } />
         </Routes>
