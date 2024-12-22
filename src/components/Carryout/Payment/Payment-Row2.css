@@ -15,22 +15,84 @@
     border-radius: 8px;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); 
 }
+#Payment-row2-top-container h4 {
+    margin: 16px 0 4px 0;
+}
 
-.PaymentMethodCard-btn-name {
+#cardNumberInputField {
+    margin: 8px 0;
+    width: 100%;
+}
+#cardNumberInputField label {
+    background-color: #28282B;
+    color: white;
+    padding: 8px;
+    border-radius: 0 2px 2px 0;
+    font-size: 1.25rem;
+}
+#cardNumberInputField input[type="text"] {
+    border: none;
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+
+#cardNumber-input {
+    width: 100%;
+}
+
+
+#cardSecurityInputField {
+    width: 20%;
+    margin: 8px 0;
+}
+#cardSecurityInputField label {
+    background-color: #28282B;
+    color: white;
+    padding: 8px;
+    border-radius: 0 2px 2px 0;
+    font-size: 1.25rem;
+}
+#cardSecurityInputField input[type="text"] {
+    border: none;
+    font-size: 1.3rem;
+    padding: 8px;
+    width: 100%;
+}
+
+#cardExpireDate-field label {
+    background-color: #28282B;
+    color: white;
+    padding: 8px;
+    border-radius: 0 2px 2px 0;
+    font-size: 1.25rem;
+}
+#cardExpireDate-field input[type="text"] {
+    border: none;
+    font-size: 1.3rem;
+    padding: 8px;
+    width: 100%;
+}
+
+
+/* PaymentMethodCard() */
+.PaymentMethodCard p {
+    margin: 0;
+}
+
+.PaymentMethodCard-radio-btn {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px 0;
     gap: 12px;
 }
-.PaymentMethodCard-btn-name h3 {
+.PaymentMethodCard-radio-btn h3 {
     margin: 0;
 }
-.PaymentMethodCard-btn-name input[type="radio"] {
+.PaymentMethodCard-radio-btn input[type="radio"] {
     margin: 0;
-    width: 16px;
-}
-.PaymentMethodCard-btn-name input[type="radio"]:checked {
-    background-color: green;
-    color: green;
+    accent-color: green;
+    height: 20px;
+    width: 20px;
 }
