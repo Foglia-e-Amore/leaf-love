@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import "./Aboutus.css"
 
 function Aboutus() {
         return(
@@ -22,7 +22,7 @@ function Aboutus() {
             different from our competitors. For more information about any of our services, 
             the answers are all on this website. See for yourself, if green on the plate, 
             can bring green to the tummy</h2>
-            <FAQButton />
+            <FAQButton  />
             <CharityButton />
             <FarmtoTableButton />
             <ContactButton />
@@ -36,7 +36,7 @@ function Aboutus() {
 function FAQButton() {
     return (
       <Link to="/faq">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button >
           FAQ's
         </button>
       </Link>
@@ -45,7 +45,7 @@ function FAQButton() {
   function CharityButton() {
     return (
       <Link to="/Charity">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button >
           Our Charities
         </button>
       </Link>
@@ -55,7 +55,7 @@ function FAQButton() {
   function FarmtoTableButton() {
     return (
       <Link to="/F2Table">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button>
           Farm to Table
         </button>
       </Link>
@@ -65,7 +65,7 @@ function FAQButton() {
   function ContactButton() {
     return (
       <Link to="/Contact">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button>
           Contact Us
         </button>
       </Link>
@@ -75,7 +75,7 @@ function FAQButton() {
   function TaRButton() {
     return (
       <Link to="/TaR">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button >
           Testimonials and Reviews
         </button>
       </Link>
@@ -85,7 +85,7 @@ function FAQButton() {
   function BaCButton() {
     return (
       <Link to="/BaC">
-        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+        <button>
           Business and Colloboration
         </button>
       </Link>
