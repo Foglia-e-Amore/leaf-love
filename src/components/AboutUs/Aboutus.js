@@ -23,6 +23,12 @@ function Aboutus() {
             the answers are all on this website. See for yourself, if green on the plate, 
             can bring green to the tummy</h2>
             <FAQButton />
+            <CharityButton />
+            <FarmtoTableButton />
+            <ContactButton />
+            <TaRButton />
+            <BaCButton />
+
         </div>
     )
 }
@@ -32,6 +38,55 @@ function FAQButton() {
       <Link to="/faq">
         <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
           FAQ's
+        </button>
+      </Link>
+    );
+  }
+  function CharityButton() {
+    return (
+      <Link to="/Charity">
+        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+          Our Charities
+        </button>
+      </Link>
+    );
+  }
+
+  function FarmtoTableButton() {
+    return (
+      <Link to="/F2Table">
+        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+          Farm to Table
+        </button>
+      </Link>
+    );
+  }
+
+  function ContactButton() {
+    return (
+      <Link to="/Contact">
+        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+          Contact Us
+        </button>
+      </Link>
+    );
+  }
+
+  function TaRButton() {
+    return (
+      <Link to="/TaR">
+        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+          Testimonials and Reviews
+        </button>
+      </Link>
+    );
+  }
+
+  function BaCButton() {
+    return (
+      <Link to="/BaC">
+        <button style={{ marginTop: "20px", padding: "30px 20px", fontSize: "16px" }}>
+          Business and Colloboration
         </button>
       </Link>
     );
