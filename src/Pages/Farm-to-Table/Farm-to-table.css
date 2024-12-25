@@ -1,5 +1,6 @@
 .main-content {
   display: flex;
+  flex-direction: column;
 }
 .F2TImg {
   object-fit: cover;
@@ -15,7 +16,7 @@
 .bulletlist {
   list-style-type: disc;
   padding: 50px;
-  padding-right: 100px;
+  padding-right: 25px;
 }
 
 .bulletlistitem {
@@ -25,4 +26,20 @@
 
 #lastitem {
   margin-bottom: 0px;
+}
+
+.sidebarlmao {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.sidebarimglol {
+  object-fit: cover;
+  object-position: 50%;
+  height: 75xp;
+  width: 75px;
+  padding: 25px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
