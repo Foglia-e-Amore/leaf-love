@@ -28,10 +28,17 @@
   margin-bottom: 0px;
 }
 
+.sidebarcont {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .sidebarlmao {
   display: flex;
   flex-direction: column;
   height: 90vh;
+  position: sticky;
+  top: 5vh;
 }
 
 .sidebarimglol {
