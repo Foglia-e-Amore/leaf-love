@@ -2,8 +2,19 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./Aboutus.css"
 
+
 function Aboutus() {
-        return(
+  const pageStyle = {
+    backgroundImage: `url(https://chromeunboxed.com/wp-content/uploads/2022/02/dark-mode-search-featured.jpg`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    height: '100vh',
+    width: '100%',
+  };
+
+  return(
+      <div style={{pageStyle}}>
         <div 
          className="AboutDesc">
         <h1>Celebrating the land, the leaf, and the love since 2009!</h1>
@@ -28,7 +39,8 @@ function Aboutus() {
             <ContactButton />
             <TaRButton />
             <BaCButton />
-
+           
+        </div>
         </div>
     )
 }
@@ -36,7 +48,7 @@ function Aboutus() {
 function FAQButton() {
     return (
       <Link to="/faq">
-        <button >
+        <button className="aboutus-button">
           FAQ's
         </button>
       </Link>
@@ -45,7 +57,7 @@ function FAQButton() {
   function CharityButton() {
     return (
       <Link to="/Charity">
-        <button >
+        <button className="aboutus-button">
           Our Charities
         </button>
       </Link>
@@ -54,8 +66,8 @@ function FAQButton() {
 
   function FarmtoTableButton() {
     return (
-      <Link to="/F2Table">
-        <button>
+      <Link to="/Farm-to-table">
+        <button className="aboutus-button">
           Farm to Table
         </button>
       </Link>
@@ -64,8 +76,8 @@ function FAQButton() {
 
   function ContactButton() {
     return (
-      <Link to="/Contact">
-        <button>
+      <Link to="/contact">
+        <button className="aboutus-button">
           Contact Us
         </button>
       </Link>
@@ -75,7 +87,7 @@ function FAQButton() {
   function TaRButton() {
     return (
       <Link to="/TaR">
-        <button >
+        <button className="aboutus-button">
           Testimonials and Reviews
         </button>
       </Link>
@@ -85,7 +97,7 @@ function FAQButton() {
   function BaCButton() {
     return (
       <Link to="/BaC">
-        <button>
+        <button className="aboutus-button">
           Business and Colloboration
         </button>
       </Link>
