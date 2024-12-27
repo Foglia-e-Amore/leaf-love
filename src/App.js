@@ -6,7 +6,7 @@ import CarryOut from './Pages/CarryOut/CarryOut';
 import Play from './Pages/PlayGround/Play';
 import Aboutus from './components/AboutUs/Aboutus';
 import FarmToTable from './Pages/Farm-to-Table/Farm-to-Table';
-
+import ContactUs from './components/AboutUs/Contact';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path="/carryout" element={ <CarryOut /> } />
           <Route path="/farm-to-table" element={ <FarmToTable /> } />
           <Route path='/playground' element={ <Play /> } />
+          <Route path="/Contact" element={<ContactUs />} />
         </Routes>
       </div>
   );
