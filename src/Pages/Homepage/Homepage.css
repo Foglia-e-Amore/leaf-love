@@ -1,0 +1,26 @@
+.Homepage {
+  display: flex;
+  height: 90vh;
+}
+
+.mainimage {
+  height: 90vh;
+  width: 98.89vw;
+}
+
+.firststuff {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px; /* Add padding */
+  text-align: center;
+  font-size: 20px; /* Adjust font size */
+}

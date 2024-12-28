@@ -3,20 +3,27 @@
   flex-direction: column;
 }
 .F2TImg {
+  position: sticky;
+  top: 0px;
   object-fit: cover;
   object-position: 75%;
-  height: 90vh;
+  height: 100vh;
   width: 35vw;
 }
 
 .imgcont {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 200vh;
 }
 
 .bulletlist {
+  position: sticky;
+  top: 0px;
+  bottom: 20vh;
   list-style-type: disc;
-  padding: 50px;
-  padding-right: 25px;
 }
 
 .bulletlistitem {
@@ -24,29 +31,10 @@
   font-size: large;
 }
 
+#firstitem {
+  margin-top: 15vh;
+}
+
 #lastitem {
-  margin-bottom: 0px;
-}
-
-.sidebarcont {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.sidebarlmao {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-  position: sticky;
-  top: 5vh;
-}
-
-.sidebarimglol {
-  object-fit: cover;
-  object-position: 50%;
-  height: 75xp;
-  width: 75px;
-  padding: 25px;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  margin-bottom: 15vh;
 }
