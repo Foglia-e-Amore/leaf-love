@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Aboutus.css"
 
 
+
 function Aboutus() {
   const pageStyle = {
     backgroundImage: `url(https://chromeunboxed.com/wp-content/uploads/2022/02/dark-mode-search-featured.jpg`,
@@ -76,7 +77,7 @@ function FAQButton() {
 
   function ContactButton() {
     return (
-      <Link to="/contact">
+      <Link to="/Contact">
         <button className="aboutus-button">
           Contact Us
         </button>
