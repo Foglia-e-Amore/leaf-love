@@ -1,0 +1,45 @@
+.f2t-content {
+  display: flex;
+  flex-direction: row;
+  height: 300vh;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 15vw;
+  height: 94.5vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.sidebar ul li {
+  text-decoration: none;
+  display: block;
+}
+
+.what-f2t-content {
+  display: flex;
+}
+
+.what-f2t-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 87.5vh;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.what-f2t-info li {
+  font-size: 20px;
+
+}
+
+.what-f2t-content img {
+  height: 100vh;
+  width: 30vw;
+  position: sticky;
+  top: 0;
+}
