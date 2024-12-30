@@ -17,7 +17,7 @@ function FarmToTable() {
         </div>
         <div className='sidebar'>
           <ul>
-            <li>x</li>
+            <li><img src = {cowicon} alt = 'cow ran away'/></li>
           </ul>
       </div>
       </div>

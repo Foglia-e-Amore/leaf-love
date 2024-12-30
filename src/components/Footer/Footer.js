@@ -19,7 +19,7 @@ function Footer() {
       </div>
       <div class="contact-section">
         <h3>Contact Us</h3>
-        <p>Email: contact@fogliaeamore.com</p>
+        <p>Email: fogliaeamore@gmail.com</p>
         <p>Phone: +1 234 567 890</p>
       </div>
     </div>
