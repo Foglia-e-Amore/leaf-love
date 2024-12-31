@@ -1,4 +1,5 @@
 import React from "react";
+import "./Aboutus.css"
  
 function contactUs() {
     return (
