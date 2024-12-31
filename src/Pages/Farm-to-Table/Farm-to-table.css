@@ -1,52 +1,50 @@
-.main-content {
+.f2t-content {
   display: flex;
-  flex-direction: column;
-}
-.F2TImg {
-  object-fit: cover;
-  object-position: 75%;
-  height: 90vh;
-  width: 35vw;
+  flex-direction: row;
+  height: 300vh;
 }
 
-.imgcont {
-  display: flex;
-}
-
-.bulletlist {
-  list-style-type: disc;
-  padding: 50px;
-  padding-right: 25px;
-}
-
-.bulletlistitem {
-  margin-bottom: 50px;
-  font-size: large;
-}
-
-#lastitem {
-  margin-bottom: 0px;
-}
-
-.sidebarcont {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.sidebarlmao {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
+.sidebar {
   position: sticky;
-  top: 5vh;
+  top: 0;
+  width: 15vw;
+  height: 94.5vh;
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
-.sidebarimglol {
-  object-fit: cover;
-  object-position: 50%;
-  height: 75xp;
-  width: 75px;
-  padding: 25px;
-  padding-top: 30px;
-  padding-bottom: 70px;
+.sidebar img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.sidebar ul li {
+  text-decoration: none;
+  display: block;
+}
+
+.what-f2t-content {
+  display: flex;
+}
+
+.what-f2t-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 87.5vh;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.what-f2t-info li {
+  font-size: 20px;
+
+}
+
+.what-f2t-content img {
+  height: 100vh;
+  width: 30vw;
+  position: sticky;
+  top: 0;
 }

@@ -1,0 +1,49 @@
+.Homepage {
+  display: flex;
+  height: 90vh;
+}
+
+.mainimage {
+  height: 87.5vh;
+  width: 98.89vw;
+}
+
+.firststuff {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F2C94C;
+  padding: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.imgbutton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55px, 40px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  border-color: #F2C94C;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.links {
+  color: black;
+  text-decoration: none;
+}

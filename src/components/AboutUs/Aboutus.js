@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import vegrest from "../../images/vegrest.png";
 import "./Aboutus.css"
 
 
@@ -18,8 +19,9 @@ function Aboutus() {
       <div style={{pageStyle}}>
         <div 
          className="AboutDesc">
+        <img className = 'backgroundimg' src = {vegrest} alt="img ran away"/>
         <h1>Celebrating the land, the leaf, and the love since 2009!</h1>
-        <h2 style={{ fontSize: '20px' }}> Could green on the plate, bring green to the tummy? That was the question 5 young men asked 
+        <h2 className="imgtextx" style={{ fontSize: '20px' }}> Could green on the plate, bring green to the tummy? That was the question 5 young men asked 
             when they left a restaurants after some half cooked broccoli. 
             The Short Answer? Foglia-i-amore! The long answer? You! 
             Thank’s to all of you who have ate here, or are considering eating here,
@@ -87,7 +89,7 @@ function FAQButton() {
 
   function TaRButton() {
     return (
-      <Link to="/TaR">
+      <Link to="/testreview">
         <button className="aboutus-button">
           Testimonials and Reviews
         </button>
