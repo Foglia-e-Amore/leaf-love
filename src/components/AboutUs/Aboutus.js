@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import vegrest from "../../images/vegrest.png";
 import "./Aboutus.css"
 
 
