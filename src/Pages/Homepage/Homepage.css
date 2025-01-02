@@ -10,17 +10,18 @@
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .slide-image {
   width: 100%;
   height: auto;
-  display: none; /* Hide all images initially */
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 1s ease-in-out;
   object-fit: cover;
-}
-
-.slide-image:nth-child(1) {
-  display: block; /* Display first image initially */
 }
 
 .prev, .next {
@@ -29,6 +30,7 @@
   height: 100%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease;
   color: white;
   border: none;
   cursor: pointer;
@@ -56,11 +58,30 @@
   color: white;
   border: none;
   cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 10px 10px;
+  border-radius: 100px;
   z-index: 1000;
 }
 
-.pause:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.pause-icon {
+  height: 20px;
+  width: 24px;
+}
+
+.slide-image.active {
+  opacity: 1;
+  z-index: 10;
+}
+
+.slide-image.inactive {
+  z-index: 1;
+}
+
+.menusect {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("C:\Users\nikhi\OneDrive\Documents\TSA-Webmaster\leaf-love\public\images\vegrest.png"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
